@@ -1,0 +1,6 @@
+framework module Pods_MetraTest {
+  umbrella header "Pods-MetraTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
