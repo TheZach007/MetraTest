@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 				5E806D60EBCD8635D919B535 /* Pods-MetraTest.debug.xcconfig */,
 				10AEF825D2DE2A946E6AB32E /* Pods-MetraTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,15 +72,55 @@
 		E337F7B3262DA6B00075361A /* MetraTest */ = {
 			isa = PBXGroup;
 			children = (
+				E337F7CD262FF3AA0075361A /* UI */,
 				E337F7B4262DA6B00075361A /* AppDelegate.swift */,
 				E337F7B6262DA6B00075361A /* SceneDelegate.swift */,
-				E337F7B8262DA6B00075361A /* ViewController.swift */,
-				E337F7BA262DA6B00075361A /* Main.storyboard */,
 				E337F7BD262DA6B50075361A /* Assets.xcassets */,
 				E337F7BF262DA6B50075361A /* LaunchScreen.storyboard */,
 				E337F7C2262DA6B50075361A /* Info.plist */,
 			);
 			path = MetraTest;
+			sourceTree = "<group>";
+		};
+		E337F7CD262FF3AA0075361A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E337F7CE262FF3B10075361A /* Dashboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E337F7CE262FF3B10075361A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E337F7D1262FF3C30075361A /* Controller */,
+				E337F7D0262FF3BE0075361A /* View */,
+				E337F7CF262FF3B90075361A /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E337F7CF262FF3B90075361A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E337F7D0262FF3BE0075361A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E337F7BA262DA6B00075361A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E337F7D1262FF3C30075361A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E337F7B8262DA6B00075361A /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F4FBB5732A04F0FB165E15B9 /* Frameworks */ = {
